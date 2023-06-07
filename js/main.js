@@ -10,23 +10,23 @@ const contatoLink = document.querySelectorAll('#contato')
 
 console.log(url)
 
-if (url === '/' || url === '/index.html') {
+if (url === '/' || url === '/index.html' || url === '/fiap-globalsolution-rwd/index.html' || url === '/fiap-globalsolution-rwd/') {
   homeLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '../pages/sustentavel.html') {
+if (url === '/fiap-globalsolution-rwd/pages/sustentavel.html' || url === '/pages/sustentavel.html') {
   sustentavelLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '../pages/ia.html') {
+if (url === '/fiap-globalsolution-rwd/pages/ia.html' || url === '/pages/ia.html') {
   iaLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '../pages/modelos.html') {
+if (url === '/fiap-globalsolution-rwd/pages/modelos.html' || url === '/pages/modelos.html') {
   modelosLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '../pages/contato.html') {
+if (url === '/fiap-globalsolution-rwd/pages/contato.html' || url === '/pages/contato.html') {
   contatoLink.forEach((link) => link.classList.add('active'))
 }
 
