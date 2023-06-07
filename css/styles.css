@@ -369,6 +369,15 @@ footer {
   margin-top: 120px;
   padding: 40px 0px;
   background: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer .container nav h3 {
@@ -395,6 +404,20 @@ footer .container nav ul li:hover {
   color: #53a148;
 }
 
+footer .container-integrantes ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+footer .container-integrantes ul li{
+  list-style: none;
+}
+
+footer .container-integrantes ul h1{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
 /* Responsivity */
 
 @media (max-width: 600px) {
