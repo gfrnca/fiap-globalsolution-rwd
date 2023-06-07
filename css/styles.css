@@ -518,6 +518,8 @@ footer .container-integrantes ul h1{
 }
 
 
+
+
 /* Responsivity */
 
 @media (max-width: 600px) {
@@ -545,4 +547,9 @@ footer .container-integrantes ul h1{
     display: none;
   }
 
+  footer .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
