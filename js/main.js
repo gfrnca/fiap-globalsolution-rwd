@@ -14,19 +14,19 @@ if (url === '/' || url === '/index.html') {
   homeLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '/pages/sustentavel.html') {
+if (url === '../pages/sustentavel.html') {
   sustentavelLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '/pages/ia.html') {
+if (url === '../pages/ia.html') {
   iaLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '/pages/modelos.html') {
+if (url === '../pages/modelos.html') {
   modelosLink.forEach((link) => link.classList.add('active'))
 }
 
-if (url === '/pages/contato.html') {
+if (url === '../pages/contato.html') {
   contatoLink.forEach((link) => link.classList.add('active'))
 }
 
