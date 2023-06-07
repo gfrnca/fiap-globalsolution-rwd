@@ -15,3 +15,11 @@
 .container {
   padding: 0 15vw;
 }
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 60px;
+}
