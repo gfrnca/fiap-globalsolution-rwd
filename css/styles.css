@@ -11,4 +11,7 @@
     color: unset;
     text-decoration: none;
   }
-  
+  /* Global Container */
+.container {
+  padding: 0 15vw;
+}
