@@ -23,9 +23,38 @@
   width: 100%;
   margin-bottom: 60px;
 }
+
 .header .container {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.header .container .brand h1 span {
+  color: #53a148;
+}
+
+.header .container nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .container nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header .container nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.header .container nav ul li:hover {
+  color: #53a148;
+}
+
+.header .container nav ul li.active {
+  color: #53a148;
 }
